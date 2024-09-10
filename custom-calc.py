@@ -9,11 +9,11 @@
 print('Hello. This calculator is a pyramid calculator. ')
 
 units = input('Enter the units you want to use. E.g. cm, m, ft, etc. : ')
-length = int(input('Please enter the length: '))
+length = float(input('Please enter the length: '))
 #print(type(length))
-width = int(input('Please enter the width: '))
+width = float(input('Please enter the width: '))
 #print(type(width))
-height = int(input('Please enter the height: '))
+height = float(input('Please enter the height: '))
 #print(type(height))
 
 
