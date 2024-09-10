@@ -18,7 +18,7 @@ height = int(input('Please enter the height: '))
 
 
 total = int(length * width * height) / 3
-print('Your pyramid is', total, 'cubic', units + '!')
+print(f'Your pyramid is {total} cubic {units}!')
 
 
 
