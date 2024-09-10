@@ -17,7 +17,7 @@ height = float(input('Please enter the height: '))
 #print(type(height))
 
 
-total = int(length * width * height) / 3
+total = (length * width * height) / 3
 print(f'Your pyramid is {total} cubic {units}!')
 
 
